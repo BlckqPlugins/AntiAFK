@@ -1,0 +1,6 @@
+name: AntiAFK
+version: 1.0.0
+api: 5.0.0
+author: BlckqPlugins
+main: blckqplugins\antiafk\AntiAFK
+website: https://github.com/BlckqPlugins

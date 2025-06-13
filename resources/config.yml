@@ -1,0 +1,26 @@
+# AntiAFK Configuration
+
+# Time in minutes after which a player is considered AFK
+afk-time: 1
+
+# Time in minutes after which an AFK player will be kicked
+kick-time: 3
+
+# Warning message sent to player before kick (in minutes)
+warning-time: 1
+
+# Whether to broadcast a message when a player goes AFK
+broadcast-afk: true
+
+# Messages
+messages:
+  afk: "{prefix}&e{player} &7is now AFK."
+  no-longer-afk: "{prefix}&e{player} &7is no longer AFK."
+  warning: "{prefix}&cWarning! &7You will be kicked for inactivity in &e{time} &7minutes."
+  kick-reason: "You have been kicked for being AFK for too long."
+
+# Exclude specific players or groups from AFK detection
+# Players with these permissions will be excluded: antiafk.bypass
+exempt-players:
+  - "admin"
+  - "moderator"
